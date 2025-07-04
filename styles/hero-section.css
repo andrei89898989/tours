@@ -1,0 +1,35 @@
+.hero-section
+{
+    height: 100vh;
+    background-image: url(../background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.hero-section__wr
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 240px;
+    align-items: center;
+}
+
+.hero-secion__title
+{
+    font-weight: 800;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+
+.hero-section__description
+{
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    max-width: 672px;
+    color: white;
+}

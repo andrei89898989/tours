@@ -1,0 +1,24 @@
+.g-button
+{
+    padding: 10px 40px;
+    background-color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    color: #0068BF;
+    transition: .2s all ease;
+    width: max-content;
+}
+
+.g-button:hover
+{
+    opacity: 0.9;
+    scale: .99;
+}
+
+.g-button--blue
+{
+    background-color: #0068BF;
+    color: #fff;
+}
