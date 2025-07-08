@@ -1,0 +1,27 @@
+.organizators
+{
+    width: 1050px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    color: #000;
+}
+
+.organizators__title
+{
+    align-items: end;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.organizators h3
+{
+    font-size: 26px;
+    margin-bottom: 20px;
+
+}
+
+.organizators__description
+{
+    font-weight: 500;
+    font-size: 24px;
+}

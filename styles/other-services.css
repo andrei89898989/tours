@@ -21,7 +21,7 @@
 
 .other-services__box
 {
-    /* object-fit: contain; */
+    width: 300px;
     margin-bottom: 20px;
 }
 
