@@ -1,7 +1,6 @@
 .other-services
 {
     margin-bottom: 100px;
-    overflow: hidden;
 }
 
 .other-services__title
@@ -19,9 +18,9 @@
     gap: 10px;
 }
 
-.other-services__box
+.other-services__box img
 {
-    width: 300px;
+    width: 100%;
     margin-bottom: 20px;
 }
 

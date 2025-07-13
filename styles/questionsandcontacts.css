@@ -1,0 +1,156 @@
+.questionsandcontacts
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.questionsandcontacts h2
+{
+    max-width: 920px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000;
+}
+
+.questionsandcontacts__wr
+{
+    display: grid;
+    grid-template-columns: 620px 880px;
+    gap: 20px;
+}
+
+.questionsandcontacts__info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+}
+
+.questionsandcontacts__info h3
+{
+    font-weight: 500;
+    font-size: 32px;
+    color: #000;
+}
+
+.questionsandcontacts__info p
+{
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+}
+
+.questionsandcontacts__contact
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questionsandcontacts__contact-phonenumber
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.questionsandcontacts__contact-phonenumber p:nth-child(1)
+{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.questionsandcontacts__contact-phonenumber p:nth-child(2)
+{
+    font-weight: 700;
+    font-size: 32px;
+    color: #0068BF;
+}
+
+.questionsandcontacts__contact-other
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.questionsandcontacts__contact-other h3
+{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.questionsandcontacts__contact-other div
+{
+    display: flex;
+    gap: 19px;
+}
+
+.questionsandcontacts__forma
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #0068BF;
+    padding: 30px;
+}
+
+.questionsandcontacts__forma h3
+{
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+}
+
+.questionsandcontacts__forma-form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.questionsandcontacts__forma-form input
+{
+    padding: 15px 29px;
+    max-width: 590px;
+    width: 100%;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    color: #949494;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.questionsandcontacts__forma-checkbox
+{
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+
+.questionsandcontacts__forma-checkbox div
+{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#checkbox
+{
+    width: 25px;
+    height: 25px;
+}
+
+label
+{
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    max-width: 266px;
+}

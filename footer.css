@@ -1,0 +1,24 @@
+.footer
+{
+    background-color: #0068BF;
+    padding: 50px;
+}
+
+.footer__container
+{
+    max-width: 1595px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__container span
+{
+    max-width: 595px;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    display: block;
+}
